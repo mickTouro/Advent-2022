@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Collections;
 
-public class Advent2022_1 {
+public class Advent2022_01 {
     public static void main(String[] args){
         System.out.println(getMaxFood(getElfList()));
         System.out.println(getMax3Food(getElfList()));
