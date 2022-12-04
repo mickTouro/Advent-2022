@@ -6,9 +6,6 @@ public class AdventCode_02{
 
     public static void main(String[] args){
         System.out.println(calcScore(getList()));
-        System.out.println(calcScoreNeed('A','Y'));
-        System.out.println(calcScoreNeed('B','X'));
-        System.out.println(calcScoreNeed('C','Z'));
         System.out.println(calcScoreNeed(getList()));
     }
 
