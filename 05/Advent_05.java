@@ -29,6 +29,17 @@ public class Advent_05{
         return tops;
     }
 
+    /*
+[P]     [L]         [T]            
+[L]     [M] [G]     [G]     [S]    
+[M]     [Q] [W]     [H] [R] [G]    
+[N]     [F] [M]     [D] [V] [R] [N]
+[W]     [G] [Q] [P] [J] [F] [M] [C]
+[V] [H] [B] [F] [H] [M] [B] [H] [B]
+[B] [Q] [D] [T] [T] [B] [N] [L] [D]
+[H] [M] [N] [Z] [M] [C] [M] [P] [P]
+ 1   2   3   4   5   6   7   8   9 
+    */
     public static String getTop(List<Stack<Character>> stackList, List<String> moveList){
         for(String move : moveList){
             String[] currMove = move.split(" ");
